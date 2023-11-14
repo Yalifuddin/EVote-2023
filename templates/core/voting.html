@@ -40,12 +40,12 @@
         }
 
         html {
-            background: url("{% static '/core/materials/bg.png' %}") no-repeat center fixed;
+            background: url("{% static '/core/materials/Background.png' %}") no-repeat center fixed;
             background-size: cover;
         }
 
         body {
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             color: white;
             margin: 0;
@@ -72,19 +72,19 @@
         }
 
         .button-candidate:nth-child(1) {
-            background-image: url("{% static '/core/materials/Paslon1.png' %}");
+            background-image: url("{% static '/core/materials/1.png' %}");
         }
 
         .button-candidate:nth-child(2) {
-            background-image: url("{% static '/core/materials/Paslon2.png' %}");
+            background-image: url("{% static '/core/materials/2.png' %}");
         }
 
         .button-candidate:nth-child(3) {
-            background-image: url("{% static '/core/materials/Paslon3.png' %}");
+            background-image: url("{% static '/core/materials/3.png' %}");
         }
 
         .button-candidate:nth-child(4) {
-            background-image: url("{% static '/core/materials/Paslon4.png' %}");
+            background-image: url("{% static '/core/materials/4.png' %}");
         }
 
         #wrapper-confirmation-button {
@@ -118,14 +118,14 @@
         #confirmation-button {
             vertical-align: middle;
             background-color: #262626;
-            color: gold;
+            color: wheat;
             font-family: Candara;
             font-size: 1rem;
             border-radius: 10px 10px 10px 10px;
             padding: 0.5rem 1rem;
             margin: 10px;
             z-index: 100 !important;
-            border: 1px solid gold;
+            border: 1px solid wheat;
             transition: .2s;
         }
 
@@ -135,16 +135,16 @@
 
         .footer {
             width: 100%;
-            height: 30px;
+            height: 50px;
             display: block;
         }
     </style>
 </head>
 
 <header>
-    <img class="logo MPK" src="{% static '/core/materials/mpkk.png' %}" height="5">
-    <img class="title" src="{% static '/core/materials/yh.png' %}" height="110px">
-    <img class="logo Kader" src="{% static '/core/materials/kdrrr.png' %}" height="5">
+    <img class="logo MPK" src="{% static '/core/materials/MPK.png' %}" height="5">
+    <img class="title" src="{% static '/core/materials/Kaderisasi2023.png' %}" height="110px">
+    <img class="logo Kader" src="{% static '/core/materials/Kaderisasi.png' %}" height="5">
 </header>
 
 <body>
@@ -156,40 +156,40 @@
             <strong>Yakin</strong>
         </button>
     </div>
-    <div style="display: flex; justify-content: center; align-items: center; padding: 10rem 0;">
+    <div style="display: flex; justify-content: center; align-items: center; padding: 3rem 0;">
         <button onclick="showconfirmationbutton(), clickoption(1)" class="button-candidate" type="submit">
             <div
                 style="display: flex; justify-content: center; align-items: flex-end; position: absolute; top: 0; left: 0; z-index: 0 !important; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.5) 18%, rgba(0, 0, 0, 0) 100%); border-radius: 30px 30px 30px 30px;">
-                <a style="font-family: The Nutcracker; color: gold; z-index: 100 !important; padding-bottom: 10px;">
-                    M. Farih Albani </br>
-                    Nadhifa Khansa
+                <a style="font-family: The Nutcracker; color: wheat; z-index: 100 !important; padding-bottom: 10px;">
+                    Fathi Ammar Rahman </br>
+                    Ratu Dinara
                 </a>
             </div>
         </button>
         <button onclick="showconfirmationbutton(), clickoption(2)" class="button-candidate" type="submit">
             <div
                 style="display: flex; justify-content: center; align-items: flex-end; position: absolute; top: 0; left: 0; z-index: 0 !important; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.5) 18%, rgba(0, 0, 0, 0) 100%); border-radius: 30px 30px 30px 30px;">
-                <a style="font-family: The Nutcracker; color: gold; z-index: 100 !important; padding-bottom: 10px;">
-                    Ghifran Majid </br>
-                    Naila Rifda S
+                <a style="font-family: The Nutcracker; color: wheat; z-index: 100 !important; padding-bottom: 10px;">
+                    Asyraf Zahirul Roshidu </br>
+                    Pramita Nafa Zhafourein
                 </a>
             </div>
         </button>
         <button onclick="showconfirmationbutton(), clickoption(3)" class="button-candidate" type="submit">
             <div
                 style="display: flex; justify-content: center; align-items: flex-end; position: absolute; top: 0; left: 0; z-index: 0 !important; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.5) 18%, rgba(0, 0, 0, 0) 100%); border-radius: 30px 30px 30px 30px;">
-                <a style="font-family: The Nutcracker; color: gold; z-index: 100 !important; padding-bottom: 10px;">
-                    Rifqi Yasin Saputra </br>
-                    Nayla Nurwahida
+                <a style="font-family: The Nutcracker; color: wheat; z-index: 100 !important; padding-bottom: 10px;">
+                    Ramadhan Nayaka </br>
+                    Fatimah Aulia
                 </a>
             </div>
         </button>
         <button onclick="showconfirmationbutton(), clickoption(4)" class="button-candidate" type="submit">
             <div
                 style="display: flex; justify-content: center; align-items: flex-end; position: absolute; top: 0; left: 0; z-index: 0 !important; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0,0,0,0.5) 18%, rgba(0, 0, 0, 0) 100%); border-radius: 30px 30px 30px 30px;">
-                <a style="font-family: The Nutcracker; color: gold; z-index: 100 !important; padding-bottom: 10px;">
-                    Ramadhan Nayaka </br>
-                    Audry Raissa Putri
+                <a style="font-family: The Nutcracker; color: wheat; z-index: 100 !important; padding-bottom: 10px;">
+                    M. Farish Haykal </br>
+                    Azizah Jihan
                 </a>
             </div>
         </button>
@@ -205,7 +205,7 @@
     </form>
     <footer style="position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0);">
         <div class="footer">
-            <div style="color: #fff; text-shadow: 0px 0px 5px rgb(0, 0, 0, 1); font-family: Candara; text-align: center; letter-spacing: 1px;">
+            <div style="color: #fff; text-shadow: 0px 0px 5px rgb(0, 0, 0, 1); font-family: Candara; text-align: center; letter-spacing: 1px; font-size: larger;">
                 E-Vote by ICT
             </div>
         </div>
